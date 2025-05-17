@@ -151,7 +151,7 @@ colour: 69
 fundCostMultiplier: 232
 id: 20
 layout:
-- - - -1
+- - - 5
     - 3
     - -1
     - 2
@@ -161,8 +161,8 @@ layout:
     - 5
   - - 7
     - 4
-    - -1
     - 6
+    - 5
 - - - 3
     - -1
     - 2
@@ -276,7 +276,9 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/limestone-mine/13.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
@@ -287,7 +289,9 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/limestone-mine/14.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
@@ -316,4 +320,30 @@ tiles:
       filename: industries/limestone-mine/9.png
       left: -31
       top: -90
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/limestone-mine/11.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/limestone-mine/10.png
+      left: -22
+      top: -3
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/limestone-mine/12.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 0
+      left: -31
+      top: 0
 type: primary
